@@ -1,5 +1,7 @@
 {
   "name": "lecture_three",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "boostrap": "^2.0.0"
+  }
 }

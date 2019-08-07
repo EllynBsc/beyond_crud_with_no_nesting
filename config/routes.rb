@@ -16,7 +16,5 @@ Rails.application.routes.draw do
   end
   resources :reviews, only: [:new, :create, :index]
 
-    namespace :admin do
-      resources :reviews, only: [:edit, :update, :destroy]
-    end
+
 end
